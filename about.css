@@ -1,0 +1,364 @@
+/* Gerais */
+
+body{
+ 
+    font-family: 'Roboto', sans-serif;
+ 
+ }
+ 
+ .row{
+ 
+    margin: 0;
+ 
+ }
+ 
+ .container{
+ 
+    padding: 70px 0;
+ 
+ }
+ 
+ p, li{
+ 
+    color: #444;
+    font-size: 14px;
+ 
+ }
+
+ .fundoembacado{
+
+   opacity: 0.8;
+
+}
+
+/*Barra de navegação */
+
+.main-btn{
+
+   background-color: #65DAF9;
+   color: #FFF;
+   text-transform: uppercase;
+   width: 200px;
+   height: 60px;
+   padding: 10px 20px;
+   border-radius: 30px;
+   border: 3px solid transparent;
+   transition: .5s;
+
+}
+
+header, .navbar{
+
+    background-color: #353D41;    
+ 
+ }
+ 
+ #nav-container{
+ 
+     padding-top: 0;
+     padding-bottom: 0;
+ }
+ 
+ #logo{
+ 
+    width: 34px;
+ 
+ }
+ 
+ .navbar-brand{
+ 
+    padding: 0;
+    color: #FFF;
+ 
+ }
+ 
+ .navbar-brand:hover{
+ 
+    color: #FFF;
+ 
+ }
+ 
+ #navbar-links a {
+ 
+    color: #FFF;
+ 
+ }
+ 
+ .navbar-expand-lg .navbar-nav .nav-link{
+ 
+     padding: 1rem .8rem;
+ 
+ }
+
+/* Sobre nós */ 
+ 
+ .main-title{
+ 
+    color: #444;
+    margin: 20px 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+ 
+ }
+ 
+ .main-title::after{
+ 
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 80px;
+    left: 42.5%;
+ 
+ }
+ 
+ .about-title{
+ 
+    font-size:17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+ 
+ }
+ 
+/* projeto */
+
+#apply-area{
+
+   height: 500px;
+
+}
+
+#apply-area .container-fluid, #apply-area .row{
+
+   height: 100%;
+
+}
+
+#apply-area .apply-box{
+ 
+   text-align: center;
+   padding: 70px;
+
+}
+
+#company-img{
+
+   background-image: url(../img/ts.jpg);
+   background-size: cover;
+   height: 100%;
+
+}
+
+#pattern-img{
+
+   background-color: #444;
+   background-size: cover;
+
+}
+
+#pattern-img h4{
+  
+   margin-top: 8%;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   color: #FFF;
+
+} 
+
+#pattern-img p{
+
+   margin-bottom: 20px;
+   color: #FFF;
+   
+}
+
+#apply-btn{
+
+   display: block;
+   height: auto;
+   width: 180px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 60px;
+   background-color: #65DAF9;
+
+}
+
+#apply-btn:hover{
+
+   background-color: transparent;
+   color: #FFF;
+   text-decoration: none;
+
+}
+
+/* Vale da reciclagem */
+
+#vale-area{
+
+   background-image: url(../img/logo2.jfif);
+   height: 100%;
+   background-size: cover ;
+   opacity: 0.8;
+   margin-top: 70px;
+
+}
+
+.about-subtitle{
+
+   font-size:17px;
+   color: #FFF;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-align: center;
+
+}
+
+.about-text{
+
+   margin-top: 30px;
+   color: #FFF;
+   
+
+}
+
+.img{
+
+   width: 300px;
+   height: 250px;
+   border-radius: 40px;
+   
+}
+
+#logo-area{
+
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+
+}
+
+
+/* Time */
+
+.card-body{
+
+   text-align: center;
+
+}
+
+#team-area{
+
+   background-color: #F9F9F9;
+
+}
+
+/* Contato */
+
+#contact-area{
+
+   text-align: center;
+   background-color: #F9F9F9;
+
+}
+
+.contact-box{
+
+   padding-bottom: 50px;
+   margin-bottom: 50px;
+   border-bottom: 1px solid #3EC1D5;
+
+}
+
+.contact-box i{
+
+   color: #444;
+   border: solid 1px #444;
+   border-radius: 50%;
+   width: 55px;
+   height: 55px;
+   line-height: 55px;
+   font-size: 24px;
+   margin-bottom: 20px;
+
+}
+
+.contact-box i:hover{
+
+   color: #65DAF9;
+   transition: .5s;
+   
+}   
+
+.contact-box p{
+
+   font-size: 16px;
+
+}
+
+.contact-title{
+
+   font-weight: bold;
+   color: #35C1D5;
+
+}
+
+/* copy */
+
+#copy-area{
+
+   background-color: #F1F1F1;
+
+}
+
+#copy-area .container{
+
+   padding: 10px 0;
+   text-align: center;
+
+}
+
+#copy-area .container p{
+
+   margin-bottom: 0;
+
+}
+
+#copy-area .container a{
+
+   font-weight: bold;
+   color: #444;
+   
+}   
+
+#copy-area .container a:hover{
+
+   text-decoration: none;
+   color: #35C1D5;
+  
+}
+
+@media (max-width: 425px) {
+
+   .about-title{
+
+      margin-top: 20px;
+
+   }
+
+   .main-title{
+
+      font-size: 25px;
+
+   }
+
+   #vale-area{
+
+      margin-top: 760px;
+
+   }
+
+
+} 
+
